@@ -3,28 +3,26 @@
 
 ![ShotManager_screenshot width="350"](https://github.com/user-attachments/assets/ae7ab203-5d8f-41ef-bd35-7beaebfd17bc)
 
-Interface Layout
+
 >[!NOTE]
->Column 1 - Shows: Lists all available shows/projects from your main folder
->Column 2 - Folder Category: Shows ASSETS, SHOTS, or other category folders 
->Column 3 - Asset/Shot Name: Lists individual assets or shots within the selected category 
->Column 4 - Files: Shows all files in the `nuke` subfolder (NUKE scripts are highlighted)
+>**Interface Layout**:
+>- Column 1 - Shows: Lists all available shows/projects from your main folder
+>- Column 2 - Folder Category: Shows ASSETS, SHOTS, or other category folders 
+>- Column 3 - Asset/Shot Name: Lists individual assets or shots within the selected category 
+>- Column 4 - Files: Shows all files in the `nuke` subfolder (NUKE scripts are highlighted)
 
-
-
-
-How to Use
->Select a Show: Click on a show name in the first column 
->Choose Category: Select ASSETS or SHOTS from the second column 
->Pick Asset/Shot: Choose the specific asset or shot from the third column 
->Select File: Choose a NUKE script (.nk file) from the fourth column 
->Open Script: Click "Open NUKE Script" to load the selected file 
+>**How to Use**
+>- Select a Show: Click on a show name in the first column 
+>- Choose Category: Select ASSETS or SHOTS from the second column 
+>- Pick Asset/Shot: Choose the specific asset or shot from the third column 
+>- Select File: Choose a NUKE script (.nk file) from the fourth column 
+>- Open Script: Click "Open NUKE Script" to load the selected file 
 
 ## A - Features [^1]
->Active Projects Highlighting: Projects marked as active in your configuration will be highlighted in black. All projects, whether active or not, need to be listed in a `live_projects.json` file in your `~/.nuke/shotmanager/` directory 
->NUKE Script Detection: `.nk` files are automatically highlighted and made bold for easy identification 
->Path Flexibility: Supports both local drives and UNC network paths 
->Safe Script Opening: Prompts before closing current script when opening a new one 
+>- Active Projects Highlighting: Projects marked as active in your configuration will be highlighted in black. All projects, whether active or not, need to be listed in a `live_projects.json` file in your `~/.nuke/shotmanager/` directory 
+>- NUKE Script Detection: `.nk` files are automatically highlighted and made bold for easy identification 
+>- Path Flexibility: Supports both local drives and UNC network paths 
+>- Safe Script Opening: Prompts before closing current script when opening a new one 
 
 ## B - Configuration
 >[!IMPORTANT]
