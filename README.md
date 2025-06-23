@@ -1,9 +1,8 @@
-# shotmanager 
+# shotmanager
+ShotManager is a NUKE tool designed to help you navigate and open project files efficiently. It provides a four-column browser interface to quickly locate and open NUKE scripts across your shows directory.
 <p align="center">
   <img src="https://github.com/LRongeart/shotmanager/blob/main/icon/shotManager.png" width="150" title="ShotManagerIcon">
 </p>
-ShotManager is a NUKE tool designed to help you navigate and open project files efficiently. It provides a four-column browser interface to quickly locate and open NUKE scripts across your shows directory.
-
 
 ## Interface Layout:
 > [!NOTE]
