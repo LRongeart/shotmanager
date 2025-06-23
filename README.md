@@ -12,17 +12,17 @@
 >- Column 4 - Files: Shows all files in the `nuke` subfolder (NUKE scripts are highlighted)
 
 >**How to Use**
->- Select a Show: Click on a show name in the first column 
->- Choose Category: Select ASSETS or SHOTS from the second column 
->- Pick Asset/Shot: Choose the specific asset or shot from the third column 
->- Select File: Choose a NUKE script (.nk file) from the fourth column 
->- Open Script: Click "Open NUKE Script" to load the selected file 
+- Select a Show: Click on a show name in the first column 
+- Choose Category: Select ASSETS or SHOTS from the second column 
+- Pick Asset/Shot: Choose the specific asset or shot from the third column 
+- Select File: Choose a NUKE script (.nk file) from the fourth column 
+- Open Script: Click "Open NUKE Script" to load the selected file 
 
 ## A - Features [^1]
->- Active Projects Highlighting: Projects marked as active in your configuration will be highlighted in black. All projects, whether active or not, need to be listed in a `live_projects.json` file in your `~/.nuke/shotmanager/` directory 
->- NUKE Script Detection: `.nk` files are automatically highlighted and made bold for easy identification 
->- Path Flexibility: Supports both local drives and UNC network paths 
->- Safe Script Opening: Prompts before closing current script when opening a new one 
+- Active Projects Highlighting: Projects marked as active in your configuration will be highlighted in black. All projects, whether active or not, need to be listed in a `live_projects.json` file in your `~/.nuke/shotmanager/` directory 
+- NUKE Script Detection: `.nk` files are automatically highlighted and made bold for easy identification 
+- Path Flexibility: Supports both local drives and UNC network paths 
+- Safe Script Opening: Prompts before closing current script when opening a new one 
 
 ## B - Configuration
 >[!IMPORTANT]
