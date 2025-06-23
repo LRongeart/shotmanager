@@ -23,7 +23,8 @@ Open Script: Click "Open NUKE Script" to load the selected file
 >Active Projects: Create a 'live_projects.json' file in your ~/.nuke/shotmanager/ directory to specify which projects should be highlighted. 
 
 >[!IMPORTANT]
->File Structure Expected 
+>File Structure Expected
+>
 >        Main Folder/
 >        ├── ShowName1/
 >        │   ├── ASSETS/
