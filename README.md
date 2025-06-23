@@ -36,7 +36,7 @@
 >> - At l.30, change the value of `self.secondary_folder_path` to your secondary directory;
 > - **In live_projects.json:** 
 >> - Open `live_projects.json` file in your `~/.nuke/shotmanager/` directory
->> - 
+>> - You can add to this list the folder names of Shows/Projects you want to see highlighted in ShotManager. By default, they're not active ( == {"status": "offline"}), but you need to specify {"status": "active"} to have them highlighted.
  
 
 ## C - File Structure Expected:
