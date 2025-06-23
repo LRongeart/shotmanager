@@ -1,11 +1,4 @@
 {
     "SHOW_A": {"status": "offline"},
 	"SHOW_B": {"status": "active"},
-	"3D3": {"status": "active"},
-    "3D4": {"status": "active"},
-	"EXIT": {"status": "active"},
-	"TUMACO": {"status": "active"},
-	"FLOWER": {"status": "active"},
-	"PUMPKIN": {"status": "active"},
-	"MIXUP": {"status": "active"}
 }
