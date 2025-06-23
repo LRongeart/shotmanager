@@ -3,11 +3,11 @@
 
 ## **Interface Layout**:
 [!NOTE]
-> ![ShotManager_screenshot width="350"](https://github.com/user-attachments/assets/ae7ab203-5d8f-41ef-bd35-7beaebfd17bc)
-> - Column 1 - Shows: Lists all available shows/projects from your main folder
-> - Column 2 - Folder Category: Shows ASSETS, SHOTS, or other category folders 
-> - Column 3 - Asset/Shot Name: Lists individual assets or shots within the selected category 
-> - Column 4 - Files: Shows all files in the `nuke` subfolder (NUKE scripts are highlighted)
+![ShotManager_screenshot width="350"](https://github.com/user-attachments/assets/ae7ab203-5d8f-41ef-bd35-7beaebfd17bc)
+- Column 1 - Shows: Lists all available shows/projects from your main folder
+- Column 2 - Folder Category: Shows ASSETS, SHOTS, or other category folders 
+- Column 3 - Asset/Shot Name: Lists individual assets or shots within the selected category 
+- Column 4 - Files: Shows all files in the `nuke` subfolder (NUKE scripts are highlighted)
 
 ## How to Use ShotManager
 - **_Select a Show:_** Click on a show name in the first column 
