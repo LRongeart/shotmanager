@@ -2,12 +2,12 @@
 >ShotManager is a NUKE tool designed to help you navigate and open project files efficiently. It provides a four-column browser interface to quickly locate and open NUKE scripts across your shows directory.
 
 [!NOTE]
-**Interface Layout**:
-![ShotManager_screenshot width="350"](https://github.com/user-attachments/assets/ae7ab203-5d8f-41ef-bd35-7beaebfd17bc)
-- Column 1 - Shows: Lists all available shows/projects from your main folder
-- Column 2 - Folder Category: Shows ASSETS, SHOTS, or other category folders 
-- Column 3 - Asset/Shot Name: Lists individual assets or shots within the selected category 
-- Column 4 - Files: Shows all files in the `nuke` subfolder (NUKE scripts are highlighted)
+>**Interface Layout**:
+> ![ShotManager_screenshot width="350"](https://github.com/user-attachments/assets/ae7ab203-5d8f-41ef-bd35-7beaebfd17bc)
+> - Column 1 - Shows: Lists all available shows/projects from your main folder
+> - Column 2 - Folder Category: Shows ASSETS, SHOTS, or other category folders 
+> - Column 3 - Asset/Shot Name: Lists individual assets or shots within the selected category 
+> - Column 4 - Files: Shows all files in the `nuke` subfolder (NUKE scripts are highlighted)
 
 **How to Use ShotManager**
 - Select a Show: Click on a show name in the first column 
@@ -44,7 +44,7 @@
 
          
 ## D - Tips
->[!NOTE]
+[!NOTE]
 - The tool automatically looks for a 'nuke' subfolder within each asset/shot directory 
 - All files are shown, but only .nk files can be opened directly 
 - The selected file path is displayed at the bottom for verification 
