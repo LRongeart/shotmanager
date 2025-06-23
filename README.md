@@ -22,7 +22,9 @@ Open Script: Click "Open NUKE Script" to load the selected file
 >Main Folder: Use the "Change Main Folder" button to point to your shows directory. In 'shotmanager_ui.py' you'll find the 'main_folder_path' variable in which you can specify >it's default path. It can be customized based upon where you have your show directory. 
 >Active Projects: Create a 'live_projects.json' file in your ~/.nuke/shotmanager/ directory to specify which projects should be highlighted. 
 
+
 ##File Structure Expected 
+>[!IMPORTANT]
 >        Main Folder/
 >        ├── ShowName1/
 >        │   ├── ASSETS/
