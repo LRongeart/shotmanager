@@ -20,19 +20,19 @@ Configuration
 Main Folder: Use the "Change Main Folder" button to point to your shows directory. In 'shotmanager_ui.py' you'll find the 'main_folder_path' variable in which you can specify it's default path. It can be customized based upon where you have your show directory. 
 Active Projects: Create a 'live_projects.json' file in your ~/.nuke/shotmanager/ directory to specify which projects should be highlighted. 
 File Structure Expected 
-        Main Folder/
-        ├── ShowName1/
-        │   ├── ASSETS/
-        │   │   └── AssetName/
-        │   │       └── nuke/
-        │   │           ├── script1.nk
-        │   │           └── script2.nk
-        │   └── SHOTS/
-        │       └── ShotName/
-        │           └── nuke/
-        │               └── shot_script.nk
-        └── ShowName2/
-            └── ...
+|        Main Folder/|
+|        ├── ShowName1/|
+|        │   ├── ASSETS/|
+|        │   │   └── AssetName/|
+|        │   │       └── nuke/|
+|        │   │           ├── script1.nk|
+|        │   │           └── script2.nk|
+|        │   └── SHOTS/|
+|        │       └── ShotName/|
+|        │           └── nuke/|
+|        │               └── shot_script.nk|
+|        └── ShowName2/|
+|            └── ...|
          
 Tips 
 The tool automatically looks for a 'nuke' subfolder within each asset/shot directory 
