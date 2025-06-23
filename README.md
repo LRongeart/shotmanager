@@ -42,7 +42,7 @@
 >        │           └── nuke/
 >        │               └── shot_script.nk
 >        └── ShowName2/
->            └── ...|
+>            └── ...
 
          
 ## D - Tips
