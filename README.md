@@ -53,6 +53,6 @@ Troubleshooting
 Projects not highlighting: Check that your 'live_projects.json' file exists and contains the correct project names. 
 Cannot access network paths: Ensure you have proper network permissions and the UNC path is accessible. 
 
-[^1]: Contact
+[^1]: Sources
 For additional support or feature requests, contact Loucas RONGEART -- loucas.rongeart@gmail.com 
 ShotManager v1.0 
