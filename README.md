@@ -3,7 +3,7 @@
 
 
 ## Interface Layout:
-[!NOTE]
+> [!NOTE]
 > ![ShotManager_screenshot width="350"](https://github.com/user-attachments/assets/ae7ab203-5d8f-41ef-bd35-7beaebfd17bc)
 > - **_Column 1_** - Shows: Lists all available shows/projects from your main folder
 > - **_Column 2_** - Folder Category: Shows ASSETS, SHOTS, or other category folders 
@@ -25,7 +25,7 @@
 
 
 ## B - Configuration
-[!IMPORTANT]
+> [!IMPORTANT]
 > - **Main Folder:** Use the "Change Main Folder" button to point to your shows directory. In `shotmanager_ui.py` you'll find the `main_folder_path` variable in which you can specify >it's default path. It can be customized based upon where you have your show directory. 
 > - **Active Projects:** Create a `live_projects.json` file in your `~/.nuke/shotmanager/` directory to specify which projects should be highlighted. 
 
@@ -46,7 +46,7 @@
 
          
 ## D - Tips
-[!NOTE]
+> [!NOTE]
 > - The tool automatically looks for a 'nuke' subfolder within each asset/shot directory 
 > - All files are shown, but only .nk files can be opened directly 
 > - The selected file path is displayed at the bottom for verification 
