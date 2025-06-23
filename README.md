@@ -12,18 +12,19 @@ Pick Asset/Shot: Choose the specific asset or shot from the third column
 Select File: Choose a NUKE script (.nk file) from the fourth column 
 Open Script: Click "Open NUKE Script" to load the selected file 
 
-##Features 
+## A - Features 
+>[!NOTE]
 >Active Projects Highlighting: Projects marked as active in your configuration will be highlighted in black. All projects, whether active or not, need to be listed in a >'live_projects.json' file in your '~/.nuke/shotmanager/' directory 
 >NUKE Script Detection: .nk files are automatically highlighted and made bold for easy identification 
 >Path Flexibility: Supports both local drives and UNC network paths 
 >Safe Script Opening: Prompts before closing current script when opening a new one 
 
-##Configuration 
+## B - Configuration 
 >Main Folder: Use the "Change Main Folder" button to point to your shows directory. In 'shotmanager_ui.py' you'll find the 'main_folder_path' variable in which you can specify >it's default path. It can be customized based upon where you have your show directory. 
 >Active Projects: Create a 'live_projects.json' file in your ~/.nuke/shotmanager/ directory to specify which projects should be highlighted. 
 
 >[!IMPORTANT]
->File Structure Expected[^1]
+## C - File Structure Expected:
 
 >        Main Folder/
 >        ├── ShowName1/
