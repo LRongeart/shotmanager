@@ -3,7 +3,7 @@
 
 [!NOTE]
 ## Interface Layout:
-![ShotManager_screenshot width="350"](https://github.com/user-attachments/assets/ae7ab203-5d8f-41ef-bd35-7beaebfd17bc)
+- ![ShotManager_screenshot width="350"](https://github.com/user-attachments/assets/ae7ab203-5d8f-41ef-bd35-7beaebfd17bc)
 - **_Column 1_** - Shows: Lists all available shows/projects from your main folder
 - **_Column 2_** - Folder Category: Shows ASSETS, SHOTS, or other category folders 
 - **_Column 3_** - Asset/Shot Name: Lists individual assets or shots within the selected category 
