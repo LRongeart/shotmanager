@@ -26,8 +26,18 @@
 
 ## B - Configuration
 > [!IMPORTANT]
-> - **Main Folder:** Use the "Change Main Folder" button to point to your shows directory. In `shotmanager_ui.py` you'll find the `main_folder_path` variable in which you can specify >it's default path. It can be customized based upon where you have your show directory. 
-> - **Active Projects:** Create a `live_projects.json` file in your `~/.nuke/shotmanager/` directory to specify which projects should be highlighted. 
+> - **Initialization:**
+>> - Copy the `shotmanager` folder in your local `~/.nuke/` directory,
+>> - Copy the `shotmanager/icon` content in your local `~/.nuke/icons` directory,
+>> - In your `~/.nuke/menu.py` script, add the content of `~/.nuke/menu.py`,
+> - **In shotmanager_ui.py:**
+>> - Open `shotmanager_ui.py` file in your `~/.nuke/shotmanager/` directory
+>> - At l.29, change the value of `self.main_folder_path` to your primary directory;
+>> - At l.30, change the value of `self.secondary_folder_path` to your secondary directory;
+> - **In live_projects.json:** 
+>> - Open `live_projects.json` file in your `~/.nuke/shotmanager/` directory
+>> - You can add to this list the folder names of Shows/Projects you want to see highlighted in ShotManager. By default, they're not active ( == {"status": "offline"}), but you need to specify {"status": "active"} to have them highlighted.
+ 
 
 ## C - File Structure Expected:
 >        Main Folder/
