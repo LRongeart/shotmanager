@@ -8,6 +8,9 @@ Interface Layout
 >Column 3 - Asset/Shot Name: Lists individual assets or shots within the selected category 
 >Column 4 - Files: Shows all files in the `nuke` subfolder (NUKE scripts are highlighted)
 
+>![ShotManager_screenshot](https://github.com/user-attachments/assets/ae7ab203-5d8f-41ef-bd35-7beaebfd17bc)
+
+
 How to Use
 >Select a Show: Click on a show name in the first column 
 >Choose Category: Select ASSETS or SHOTS from the second column 
