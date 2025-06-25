@@ -7,7 +7,7 @@ It provides a column-based browser interface to quickly locate and open NUKE scr
 
 ## Interface Layout:
 > [!NOTE]
-> ![image](https://github.com/user-attachments/assets/da9525f5-2db9-45c5-be9c-7d62b06f5794)
+> ![image](https://github.com/user-attachments/assets/8379641a-0b79-422a-a7a9-11580ff9714a)
 > - **_FIRST Column_** - Shows: Lists all available shows/projects from your main folder
 > - **_INTER Columns_** - Folder Name: Lists all folders up to your `.nk` files
 > - **_LAST Column_** - Files: Shows all files in the `nuke` subfolder (`.nk` scripts are highlighted)
