@@ -47,7 +47,7 @@ It provides a column-based browser interface to quickly locate and open NUKE scr
 - **_Safe Script Opening:_** Prompts before closing current script when opening a new one 
 
 ## C - File Structure Expected:
-> Main Folder
+    Main Folder
 >        ├── SHOW_A/
 >        │   ├── SHOTS/
 >        │   │   └── SEQ01_SH010/
