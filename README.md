@@ -79,4 +79,4 @@ It provides a column-based browser interface to quickly locate and open NUKE scr
 
 [^1]: Sources
 -- For additional support or feature requests, contact Loucas RONGEART -- loucas.rongeart@gmail.com 
-ShotManager v1.0 
+ShotManager v1.1 
