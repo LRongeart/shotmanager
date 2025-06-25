@@ -9,6 +9,9 @@ from shiboken2 import isValid
 
 
 
+mainFolderPath = "E:/SHOWS"
+secondaryFolderPath = "E:/01_PROJECTS"
+
 #Global reference to prevent garbage collection
 submit_ui_instance = None
 help_ui_instance = None
@@ -16,7 +19,7 @@ username = getpass.getuser()
 shotmanagerVersion = "v1.1"
 shotmanagerWindowTitle = 'ShotManager {}'.format(shotmanagerVersion)
 shotmanagerHelpWindowTitle = 'ShotManager Help {}'.format(shotmanagerVersion)
-contactLR = "loucas.rongeart@gmail.com"
+
 
 
 class ScriptItemDelegate(QtWidgets.QStyledItemDelegate):
@@ -98,8 +101,8 @@ class ShotManagerUI(QtWidgets.QDialog):
         self.setMinimumWidth(1400)
         self.setMinimumHeight(600)
 
-        self.main_folder_path = "E:/SHOWS"
-        self.secondary_folder_path = "E:/01_PROJECTS"
+        self.main_folder_path = mainFolderPath
+        self.secondary_folder_path = secondaryFolderPath
 
         self.active_projects = []
         self.columns = []  # Store QLabel + QListWidget pairs
@@ -885,7 +888,7 @@ class ShotManagerUI(QtWidgets.QDialog):
         self.loadActiveProjects()
 
 
-
+contactLR = "loucas.rongeart@gmail.com"
 #__________________________________________________________
 ###########################################################
 class ShowManagerUIHelp(QtWidgets.QDialog):
@@ -1012,16 +1015,20 @@ class ShowManagerUIHelp(QtWidgets.QDialog):
 
         <h3>Expected Folder Structure</h3>
         <pre>
-        E:/SHOWS/
+        Main Folder
         ├── SHOW_A/
         │   ├── SHOTS/
         │   │   └── SEQ01_SH010/
         │   │       └── nuke/
-        │   │           └── script_v01.nk
+        │   │           └── SHOT_template_script_v01.nk
         │   └── ASSETS/
         │       └── chrHero/
         │           └── nuke/
-        │               └── hero_build.nk
+        │               └── ASSET_template_script_v01.nk
+        │       
+>       │  
+        ├── SHOW_B/
+        │   ├── ... (similar structure as SHOW_A)
         </pre>
 
         <h3>Tips & Shortcuts</h3>
