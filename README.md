@@ -17,7 +17,7 @@ It provides a column-based browser interface to quickly locate and open NUKE scr
 - **_Browse Files:_** Navigate in your file directories up until your `nuke` subfolder or `nuke` files
 - **_Select File:_** Choose a NUKE script (`.nk` file) from the last column 
 - **_Open Script:_** Click "Open .nk Script" to load the selected file
-- **_Use Favorites:_** RightClick on Folders to add them to your Favourite Category to facilitate your navigation
+- **_Use Favorites:_** LeftClick on Favorites to navigate directly to that folder. You can RightClick on Folders to add them to your Favourite Tab.
 
 ## A - Configuration
 > [!IMPORTANT]
