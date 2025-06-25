@@ -28,8 +28,8 @@ It provides a column-based browser interface to quickly locate and open NUKE scr
 >>
 > **In shotmanager_ui.py:**
 >> - Open `shotmanager_ui.py` file in your `~/.nuke/shotmanager/` directory;
->> - At l.29, change the value of `self.main_folder_path` to your primary directory;
->> - At l.30, change the value of `self.secondary_folder_path` to your secondary directory;
+>> - At l.12, change the value of `mainFolderPath` to your primary directory;
+>> - At l.13, change the value of `secondaryFolderPath` to your secondary directory;
 >> 
 > **In live_projects.json:** 
 >> - Open `live_projects.json` file in your `~/.nuke/shotmanager/` directory;
